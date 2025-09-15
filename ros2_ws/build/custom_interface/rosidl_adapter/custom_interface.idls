@@ -1,0 +1,3 @@
+/home/mahmmudqatmh/ros2_ws/build/custom_interface/rosidl_adapter/custom_interface:msg/Person.idl
+/home/mahmmudqatmh/ros2_ws/build/custom_interface/rosidl_adapter/custom_interface:srv/AddThreeInts.idl
+/home/mahmmudqatmh/ros2_ws/build/custom_interface/rosidl_adapter/custom_interface:srv/Distance.idl

@@ -1,0 +1,4 @@
+[console_scripts]
+publisher_person = person_node.publisher_person:main
+subscriber_person = person_node.subscriber_person:main
+

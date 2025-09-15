@@ -1,0 +1,21 @@
+[0.760s] Invoking command in '/home/mahmmudqatmh/ros2_ws/src/distance_bringup': PYTHONPATH=/home/mahmmudqatmh/ros2_ws/build/distance_bringup/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mahmmudqatmh/ros2_ws/install/distance_bringup/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/distance_bringup build --build-base /home/mahmmudqatmh/ros2_ws/build/distance_bringup/build install --record /home/mahmmudqatmh/ros2_ws/build/distance_bringup/install.log --single-version-externally-managed install_data
+[0.920s] running egg_info
+[0.920s] writing ../../build/distance_bringup/distance_bringup.egg-info/PKG-INFO
+[0.921s] writing dependency_links to ../../build/distance_bringup/distance_bringup.egg-info/dependency_links.txt
+[0.921s] writing entry points to ../../build/distance_bringup/distance_bringup.egg-info/entry_points.txt
+[0.921s] writing requirements to ../../build/distance_bringup/distance_bringup.egg-info/requires.txt
+[0.921s] writing top-level names to ../../build/distance_bringup/distance_bringup.egg-info/top_level.txt
+[0.922s] reading manifest file '../../build/distance_bringup/distance_bringup.egg-info/SOURCES.txt'
+[0.923s] adding license file 'LICENSE'
+[0.923s] writing manifest file '../../build/distance_bringup/distance_bringup.egg-info/SOURCES.txt'
+[0.923s] running build
+[0.923s] running build_py
+[0.923s] running install
+[0.923s] running install_lib
+[0.924s] running install_data
+[0.924s] running install_egg_info
+[0.925s] removing '/home/mahmmudqatmh/ros2_ws/install/distance_bringup/lib/python3.10/site-packages/distance_bringup-0.0.0-py3.10.egg-info' (and everything under it)
+[0.926s] Copying ../../build/distance_bringup/distance_bringup.egg-info to /home/mahmmudqatmh/ros2_ws/install/distance_bringup/lib/python3.10/site-packages/distance_bringup-0.0.0-py3.10.egg-info
+[0.926s] running install_scripts
+[0.942s] writing list of installed files to '/home/mahmmudqatmh/ros2_ws/build/distance_bringup/install.log'
+[0.963s] Invoked command in '/home/mahmmudqatmh/ros2_ws/src/distance_bringup' returned '0': PYTHONPATH=/home/mahmmudqatmh/ros2_ws/build/distance_bringup/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mahmmudqatmh/ros2_ws/install/distance_bringup/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/distance_bringup build --build-base /home/mahmmudqatmh/ros2_ws/build/distance_bringup/build install --record /home/mahmmudqatmh/ros2_ws/build/distance_bringup/install.log --single-version-externally-managed install_data

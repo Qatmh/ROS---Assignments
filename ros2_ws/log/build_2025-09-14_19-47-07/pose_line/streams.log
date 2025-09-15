@@ -1,0 +1,35 @@
+[0.497s] Invoking command in '/home/mahmmudqatmh/ros2_ws/src/pose_line': PYTHONPATH=/home/mahmmudqatmh/ros2_ws/build/pose_line/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mahmmudqatmh/ros2_ws/install/pose_line/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/pose_line build --build-base /home/mahmmudqatmh/ros2_ws/build/pose_line/build install --record /home/mahmmudqatmh/ros2_ws/build/pose_line/install.log --single-version-externally-managed install_data
+[0.636s] running egg_info
+[0.636s] creating ../../build/pose_line/pose_line.egg-info
+[0.636s] writing ../../build/pose_line/pose_line.egg-info/PKG-INFO
+[0.636s] writing dependency_links to ../../build/pose_line/pose_line.egg-info/dependency_links.txt
+[0.636s] writing entry points to ../../build/pose_line/pose_line.egg-info/entry_points.txt
+[0.636s] writing requirements to ../../build/pose_line/pose_line.egg-info/requires.txt
+[0.636s] writing top-level names to ../../build/pose_line/pose_line.egg-info/top_level.txt
+[0.636s] writing manifest file '../../build/pose_line/pose_line.egg-info/SOURCES.txt'
+[0.637s] reading manifest file '../../build/pose_line/pose_line.egg-info/SOURCES.txt'
+[0.638s] writing manifest file '../../build/pose_line/pose_line.egg-info/SOURCES.txt'
+[0.638s] running build
+[0.638s] running build_py
+[0.638s] creating /home/mahmmudqatmh/ros2_ws/build/pose_line/build
+[0.638s] creating /home/mahmmudqatmh/ros2_ws/build/pose_line/build/lib
+[0.638s] creating /home/mahmmudqatmh/ros2_ws/build/pose_line/build/lib/pose_line
+[0.638s] copying pose_line/__init__.py -> /home/mahmmudqatmh/ros2_ws/build/pose_line/build/lib/pose_line
+[0.638s] running install
+[0.638s] running install_lib
+[0.639s] creating /home/mahmmudqatmh/ros2_ws/install/pose_line/lib/python3.10/site-packages/pose_line
+[0.639s] copying /home/mahmmudqatmh/ros2_ws/build/pose_line/build/lib/pose_line/__init__.py -> /home/mahmmudqatmh/ros2_ws/install/pose_line/lib/python3.10/site-packages/pose_line
+[0.639s] byte-compiling /home/mahmmudqatmh/ros2_ws/install/pose_line/lib/python3.10/site-packages/pose_line/__init__.py to __init__.cpython-310.pyc
+[0.639s] running install_data
+[0.639s] creating /home/mahmmudqatmh/ros2_ws/install/pose_line/share/ament_index
+[0.639s] creating /home/mahmmudqatmh/ros2_ws/install/pose_line/share/ament_index/resource_index
+[0.639s] creating /home/mahmmudqatmh/ros2_ws/install/pose_line/share/ament_index/resource_index/packages
+[0.639s] copying resource/pose_line -> /home/mahmmudqatmh/ros2_ws/install/pose_line/share/ament_index/resource_index/packages
+[0.639s] copying package.xml -> /home/mahmmudqatmh/ros2_ws/install/pose_line/share/pose_line
+[0.639s] running install_egg_info
+[0.640s] Copying ../../build/pose_line/pose_line.egg-info to /home/mahmmudqatmh/ros2_ws/install/pose_line/lib/python3.10/site-packages/pose_line-0.0.0-py3.10.egg-info
+[0.641s] running install_scripts
+[0.654s] Installing publisher_pose script to /home/mahmmudqatmh/ros2_ws/install/pose_line/lib/pose_line
+[0.654s] Installing subscriber_pose script to /home/mahmmudqatmh/ros2_ws/install/pose_line/lib/pose_line
+[0.655s] writing list of installed files to '/home/mahmmudqatmh/ros2_ws/build/pose_line/install.log'
+[0.669s] Invoked command in '/home/mahmmudqatmh/ros2_ws/src/pose_line' returned '0': PYTHONPATH=/home/mahmmudqatmh/ros2_ws/build/pose_line/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mahmmudqatmh/ros2_ws/install/pose_line/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/pose_line build --build-base /home/mahmmudqatmh/ros2_ws/build/pose_line/build install --record /home/mahmmudqatmh/ros2_ws/build/pose_line/install.log --single-version-externally-managed install_data

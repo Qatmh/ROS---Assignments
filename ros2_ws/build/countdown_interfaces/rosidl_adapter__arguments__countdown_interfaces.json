@@ -1,0 +1,6 @@
+{
+  "package_name": "countdown_interfaces",
+  "non_idl_tuples": [
+    "/home/mahmmudqatmh/ros2_ws/countdown_interfaces:action/Countdown.action"
+  ]
+}

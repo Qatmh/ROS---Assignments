@@ -1,0 +1,303 @@
+[0.067s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.067s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=24, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x719addf59810>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x719ade06e710>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x719ade06e710>>, mixin_verb=('build',))
+[0.163s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.163s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.163s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.163s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.163s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.163s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.164s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/mahmmudqatmh/ros2_ws'
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_interface) by extensions ['ignore', 'ignore_ament_install']
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_interface) by extension 'ignore'
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_interface) by extension 'ignore_ament_install'
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_interface) by extensions ['colcon_pkg']
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_interface) by extension 'colcon_pkg'
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_interface) by extensions ['colcon_meta']
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_interface) by extension 'colcon_meta'
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_interface) by extensions ['ros']
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_interface) by extension 'ros'
+[0.174s] DEBUG:colcon.colcon_core.package_identification:Package 'src/custom_interface' with type 'ros.ament_cmake' and name 'custom_interface'
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(src/distance_bringup) by extensions ['ignore', 'ignore_ament_install']
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(src/distance_bringup) by extension 'ignore'
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(src/distance_bringup) by extension 'ignore_ament_install'
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(src/distance_bringup) by extensions ['colcon_pkg']
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(src/distance_bringup) by extension 'colcon_pkg'
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(src/distance_bringup) by extensions ['colcon_meta']
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(src/distance_bringup) by extension 'colcon_meta'
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(src/distance_bringup) by extensions ['ros']
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(src/distance_bringup) by extension 'ros'
+[0.175s] DEBUG:colcon.colcon_core.package_identification:Package 'src/distance_bringup' with type 'ros.ament_python' and name 'distance_bringup'
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(src/distance_service) by extensions ['ignore', 'ignore_ament_install']
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(src/distance_service) by extension 'ignore'
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(src/distance_service) by extension 'ignore_ament_install'
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(src/distance_service) by extensions ['colcon_pkg']
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(src/distance_service) by extension 'colcon_pkg'
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(src/distance_service) by extensions ['colcon_meta']
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(src/distance_service) by extension 'colcon_meta'
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(src/distance_service) by extensions ['ros']
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(src/distance_service) by extension 'ros'
+[0.175s] DEBUG:colcon.colcon_core.package_identification:Package 'src/distance_service' with type 'ros.ament_python' and name 'distance_service'
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(src/log) by extensions ['ignore', 'ignore_ament_install']
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(src/log) by extension 'ignore'
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(src/log) ignored
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(src/pose_line) by extensions ['ignore', 'ignore_ament_install']
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(src/pose_line) by extension 'ignore'
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(src/pose_line) by extension 'ignore_ament_install'
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(src/pose_line) by extensions ['colcon_pkg']
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(src/pose_line) by extension 'colcon_pkg'
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(src/pose_line) by extensions ['colcon_meta']
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(src/pose_line) by extension 'colcon_meta'
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(src/pose_line) by extensions ['ros']
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(src/pose_line) by extension 'ros'
+[0.176s] DEBUG:colcon.colcon_core.package_identification:Package 'src/pose_line' with type 'ros.ament_python' and name 'pose_line'
+[0.176s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.176s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.176s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.176s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.176s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.196s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.196s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.197s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 295 installed packages in /opt/ros/humble
+[0.198s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.222s] Level 5:colcon.colcon_core.verb:set package 'custom_interface' build argument 'cmake_args' from command line to 'None'
+[0.222s] Level 5:colcon.colcon_core.verb:set package 'custom_interface' build argument 'cmake_target' from command line to 'None'
+[0.222s] Level 5:colcon.colcon_core.verb:set package 'custom_interface' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.222s] Level 5:colcon.colcon_core.verb:set package 'custom_interface' build argument 'cmake_clean_cache' from command line to 'False'
+[0.222s] Level 5:colcon.colcon_core.verb:set package 'custom_interface' build argument 'cmake_clean_first' from command line to 'False'
+[0.222s] Level 5:colcon.colcon_core.verb:set package 'custom_interface' build argument 'cmake_force_configure' from command line to 'False'
+[0.222s] Level 5:colcon.colcon_core.verb:set package 'custom_interface' build argument 'ament_cmake_args' from command line to 'None'
+[0.222s] Level 5:colcon.colcon_core.verb:set package 'custom_interface' build argument 'catkin_cmake_args' from command line to 'None'
+[0.222s] Level 5:colcon.colcon_core.verb:set package 'custom_interface' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.222s] DEBUG:colcon.colcon_core.verb:Building package 'custom_interface' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/mahmmudqatmh/ros2_ws/build/custom_interface', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/mahmmudqatmh/ros2_ws/install/custom_interface', 'merge_install': False, 'path': '/home/mahmmudqatmh/ros2_ws/src/custom_interface', 'symlink_install': False, 'test_result_base': None}
+[0.222s] Level 5:colcon.colcon_core.verb:set package 'distance_bringup' build argument 'cmake_args' from command line to 'None'
+[0.222s] Level 5:colcon.colcon_core.verb:set package 'distance_bringup' build argument 'cmake_target' from command line to 'None'
+[0.222s] Level 5:colcon.colcon_core.verb:set package 'distance_bringup' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.222s] Level 5:colcon.colcon_core.verb:set package 'distance_bringup' build argument 'cmake_clean_cache' from command line to 'False'
+[0.222s] Level 5:colcon.colcon_core.verb:set package 'distance_bringup' build argument 'cmake_clean_first' from command line to 'False'
+[0.222s] Level 5:colcon.colcon_core.verb:set package 'distance_bringup' build argument 'cmake_force_configure' from command line to 'False'
+[0.222s] Level 5:colcon.colcon_core.verb:set package 'distance_bringup' build argument 'ament_cmake_args' from command line to 'None'
+[0.222s] Level 5:colcon.colcon_core.verb:set package 'distance_bringup' build argument 'catkin_cmake_args' from command line to 'None'
+[0.222s] Level 5:colcon.colcon_core.verb:set package 'distance_bringup' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.222s] DEBUG:colcon.colcon_core.verb:Building package 'distance_bringup' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/mahmmudqatmh/ros2_ws/build/distance_bringup', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/mahmmudqatmh/ros2_ws/install/distance_bringup', 'merge_install': False, 'path': '/home/mahmmudqatmh/ros2_ws/src/distance_bringup', 'symlink_install': False, 'test_result_base': None}
+[0.222s] Level 5:colcon.colcon_core.verb:set package 'pose_line' build argument 'cmake_args' from command line to 'None'
+[0.223s] Level 5:colcon.colcon_core.verb:set package 'pose_line' build argument 'cmake_target' from command line to 'None'
+[0.223s] Level 5:colcon.colcon_core.verb:set package 'pose_line' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.223s] Level 5:colcon.colcon_core.verb:set package 'pose_line' build argument 'cmake_clean_cache' from command line to 'False'
+[0.223s] Level 5:colcon.colcon_core.verb:set package 'pose_line' build argument 'cmake_clean_first' from command line to 'False'
+[0.223s] Level 5:colcon.colcon_core.verb:set package 'pose_line' build argument 'cmake_force_configure' from command line to 'False'
+[0.223s] Level 5:colcon.colcon_core.verb:set package 'pose_line' build argument 'ament_cmake_args' from command line to 'None'
+[0.223s] Level 5:colcon.colcon_core.verb:set package 'pose_line' build argument 'catkin_cmake_args' from command line to 'None'
+[0.223s] Level 5:colcon.colcon_core.verb:set package 'pose_line' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.223s] DEBUG:colcon.colcon_core.verb:Building package 'pose_line' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/mahmmudqatmh/ros2_ws/build/pose_line', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/mahmmudqatmh/ros2_ws/install/pose_line', 'merge_install': False, 'path': '/home/mahmmudqatmh/ros2_ws/src/pose_line', 'symlink_install': False, 'test_result_base': None}
+[0.223s] Level 5:colcon.colcon_core.verb:set package 'distance_service' build argument 'cmake_args' from command line to 'None'
+[0.223s] Level 5:colcon.colcon_core.verb:set package 'distance_service' build argument 'cmake_target' from command line to 'None'
+[0.223s] Level 5:colcon.colcon_core.verb:set package 'distance_service' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.223s] Level 5:colcon.colcon_core.verb:set package 'distance_service' build argument 'cmake_clean_cache' from command line to 'False'
+[0.223s] Level 5:colcon.colcon_core.verb:set package 'distance_service' build argument 'cmake_clean_first' from command line to 'False'
+[0.223s] Level 5:colcon.colcon_core.verb:set package 'distance_service' build argument 'cmake_force_configure' from command line to 'False'
+[0.223s] Level 5:colcon.colcon_core.verb:set package 'distance_service' build argument 'ament_cmake_args' from command line to 'None'
+[0.223s] Level 5:colcon.colcon_core.verb:set package 'distance_service' build argument 'catkin_cmake_args' from command line to 'None'
+[0.223s] Level 5:colcon.colcon_core.verb:set package 'distance_service' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.223s] DEBUG:colcon.colcon_core.verb:Building package 'distance_service' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/mahmmudqatmh/ros2_ws/build/distance_service', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/mahmmudqatmh/ros2_ws/install/distance_service', 'merge_install': False, 'path': '/home/mahmmudqatmh/ros2_ws/src/distance_service', 'symlink_install': False, 'test_result_base': None}
+[0.223s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.224s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.224s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/mahmmudqatmh/ros2_ws/src/custom_interface' with build type 'ament_cmake'
+[0.224s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/mahmmudqatmh/ros2_ws/src/custom_interface'
+[0.225s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.225s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.225s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.227s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/mahmmudqatmh/ros2_ws/src/distance_bringup' with build type 'ament_python'
+[0.227s] Level 1:colcon.colcon_core.shell:create_environment_hook('distance_bringup', 'ament_prefix_path')
+[0.228s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mahmmudqatmh/ros2_ws/install/distance_bringup/share/distance_bringup/hook/ament_prefix_path.ps1'
+[0.228s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mahmmudqatmh/ros2_ws/install/distance_bringup/share/distance_bringup/hook/ament_prefix_path.dsv'
+[0.228s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mahmmudqatmh/ros2_ws/install/distance_bringup/share/distance_bringup/hook/ament_prefix_path.sh'
+[0.229s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.229s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.230s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/mahmmudqatmh/ros2_ws/src/pose_line' with build type 'ament_python'
+[0.230s] Level 1:colcon.colcon_core.shell:create_environment_hook('pose_line', 'ament_prefix_path')
+[0.230s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mahmmudqatmh/ros2_ws/install/pose_line/share/pose_line/hook/ament_prefix_path.ps1'
+[0.231s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mahmmudqatmh/ros2_ws/install/pose_line/share/pose_line/hook/ament_prefix_path.dsv'
+[0.231s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mahmmudqatmh/ros2_ws/install/pose_line/share/pose_line/hook/ament_prefix_path.sh'
+[0.231s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.231s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.235s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/mahmmudqatmh/ros2_ws/build/custom_interface': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/mahmmudqatmh/ros2_ws/src/custom_interface -DCMAKE_INSTALL_PREFIX=/home/mahmmudqatmh/ros2_ws/install/custom_interface
+[0.384s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/mahmmudqatmh/ros2_ws/src/distance_bringup'
+[0.384s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.384s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.533s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/mahmmudqatmh/ros2_ws/src/pose_line'
+[0.534s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.534s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.728s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/mahmmudqatmh/ros2_ws/src/pose_line': PYTHONPATH=/home/mahmmudqatmh/ros2_ws/build/pose_line/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mahmmudqatmh/ros2_ws/install/pose_line/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/pose_line build --build-base /home/mahmmudqatmh/ros2_ws/build/pose_line/build install --record /home/mahmmudqatmh/ros2_ws/build/pose_line/install.log --single-version-externally-managed install_data
+[0.737s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/mahmmudqatmh/ros2_ws/src/distance_bringup': PYTHONPATH=/home/mahmmudqatmh/ros2_ws/build/distance_bringup/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mahmmudqatmh/ros2_ws/install/distance_bringup/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/distance_bringup build --build-base /home/mahmmudqatmh/ros2_ws/build/distance_bringup/build install --record /home/mahmmudqatmh/ros2_ws/build/distance_bringup/install.log --single-version-externally-managed install_data
+[0.899s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/mahmmudqatmh/ros2_ws/src/pose_line' returned '0': PYTHONPATH=/home/mahmmudqatmh/ros2_ws/build/pose_line/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mahmmudqatmh/ros2_ws/install/pose_line/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/pose_line build --build-base /home/mahmmudqatmh/ros2_ws/build/pose_line/build install --record /home/mahmmudqatmh/ros2_ws/build/pose_line/install.log --single-version-externally-managed install_data
+[0.902s] Level 1:colcon.colcon_core.environment:checking '/home/mahmmudqatmh/ros2_ws/install/pose_line' for CMake module files
+[0.902s] Level 1:colcon.colcon_core.environment:checking '/home/mahmmudqatmh/ros2_ws/install/pose_line' for CMake config files
+[0.903s] Level 1:colcon.colcon_core.environment:checking '/home/mahmmudqatmh/ros2_ws/install/pose_line/lib'
+[0.903s] Level 1:colcon.colcon_core.environment:checking '/home/mahmmudqatmh/ros2_ws/install/pose_line/bin'
+[0.903s] Level 1:colcon.colcon_core.environment:checking '/home/mahmmudqatmh/ros2_ws/install/pose_line/lib/pkgconfig/pose_line.pc'
+[0.904s] Level 1:colcon.colcon_core.environment:checking '/home/mahmmudqatmh/ros2_ws/install/pose_line/lib/python3.10/site-packages'
+[0.904s] Level 1:colcon.colcon_core.shell:create_environment_hook('pose_line', 'pythonpath')
+[0.904s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mahmmudqatmh/ros2_ws/install/pose_line/share/pose_line/hook/pythonpath.ps1'
+[0.904s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mahmmudqatmh/ros2_ws/install/pose_line/share/pose_line/hook/pythonpath.dsv'
+[0.904s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mahmmudqatmh/ros2_ws/install/pose_line/share/pose_line/hook/pythonpath.sh'
+[0.904s] Level 1:colcon.colcon_core.environment:checking '/home/mahmmudqatmh/ros2_ws/install/pose_line/bin'
+[0.905s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(pose_line)
+[0.905s] INFO:colcon.colcon_core.shell:Creating package script '/home/mahmmudqatmh/ros2_ws/install/pose_line/share/pose_line/package.ps1'
+[0.905s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/mahmmudqatmh/ros2_ws/install/pose_line/share/pose_line/package.dsv'
+[0.905s] INFO:colcon.colcon_core.shell:Creating package script '/home/mahmmudqatmh/ros2_ws/install/pose_line/share/pose_line/package.sh'
+[0.906s] INFO:colcon.colcon_core.shell:Creating package script '/home/mahmmudqatmh/ros2_ws/install/pose_line/share/pose_line/package.bash'
+[0.906s] INFO:colcon.colcon_core.shell:Creating package script '/home/mahmmudqatmh/ros2_ws/install/pose_line/share/pose_line/package.zsh'
+[0.907s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/mahmmudqatmh/ros2_ws/install/pose_line/share/colcon-core/packages/pose_line)
+[0.913s] Level 1:colcon.colcon_core.environment:checking '/home/mahmmudqatmh/ros2_ws/install/distance_bringup' for CMake module files
+[0.913s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/mahmmudqatmh/ros2_ws/src/distance_bringup' returned '0': PYTHONPATH=/home/mahmmudqatmh/ros2_ws/build/distance_bringup/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mahmmudqatmh/ros2_ws/install/distance_bringup/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/distance_bringup build --build-base /home/mahmmudqatmh/ros2_ws/build/distance_bringup/build install --record /home/mahmmudqatmh/ros2_ws/build/distance_bringup/install.log --single-version-externally-managed install_data
+[0.913s] Level 1:colcon.colcon_core.environment:checking '/home/mahmmudqatmh/ros2_ws/install/distance_bringup' for CMake config files
+[0.914s] Level 1:colcon.colcon_core.environment:checking '/home/mahmmudqatmh/ros2_ws/install/distance_bringup/lib'
+[0.914s] Level 1:colcon.colcon_core.environment:checking '/home/mahmmudqatmh/ros2_ws/install/distance_bringup/bin'
+[0.914s] Level 1:colcon.colcon_core.environment:checking '/home/mahmmudqatmh/ros2_ws/install/distance_bringup/lib/pkgconfig/distance_bringup.pc'
+[0.914s] Level 1:colcon.colcon_core.environment:checking '/home/mahmmudqatmh/ros2_ws/install/distance_bringup/lib/python3.10/site-packages'
+[0.914s] Level 1:colcon.colcon_core.shell:create_environment_hook('distance_bringup', 'pythonpath')
+[0.914s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mahmmudqatmh/ros2_ws/install/distance_bringup/share/distance_bringup/hook/pythonpath.ps1'
+[0.914s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mahmmudqatmh/ros2_ws/install/distance_bringup/share/distance_bringup/hook/pythonpath.dsv'
+[0.914s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mahmmudqatmh/ros2_ws/install/distance_bringup/share/distance_bringup/hook/pythonpath.sh'
+[0.915s] Level 1:colcon.colcon_core.environment:checking '/home/mahmmudqatmh/ros2_ws/install/distance_bringup/bin'
+[0.915s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(distance_bringup)
+[0.915s] INFO:colcon.colcon_core.shell:Creating package script '/home/mahmmudqatmh/ros2_ws/install/distance_bringup/share/distance_bringup/package.ps1'
+[0.916s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/mahmmudqatmh/ros2_ws/install/distance_bringup/share/distance_bringup/package.dsv'
+[0.916s] INFO:colcon.colcon_core.shell:Creating package script '/home/mahmmudqatmh/ros2_ws/install/distance_bringup/share/distance_bringup/package.sh'
+[0.916s] INFO:colcon.colcon_core.shell:Creating package script '/home/mahmmudqatmh/ros2_ws/install/distance_bringup/share/distance_bringup/package.bash'
+[0.916s] INFO:colcon.colcon_core.shell:Creating package script '/home/mahmmudqatmh/ros2_ws/install/distance_bringup/share/distance_bringup/package.zsh'
+[0.916s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/mahmmudqatmh/ros2_ws/install/distance_bringup/share/colcon-core/packages/distance_bringup)
+[1.747s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/mahmmudqatmh/ros2_ws/build/custom_interface' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/mahmmudqatmh/ros2_ws/src/custom_interface -DCMAKE_INSTALL_PREFIX=/home/mahmmudqatmh/ros2_ws/install/custom_interface
+[1.748s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/mahmmudqatmh/ros2_ws/build/custom_interface': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/mahmmudqatmh/ros2_ws/build/custom_interface -- -j24 -l24
+[3.388s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/mahmmudqatmh/ros2_ws/build/custom_interface' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/mahmmudqatmh/ros2_ws/build/custom_interface -- -j24 -l24
+[3.399s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/mahmmudqatmh/ros2_ws/build/custom_interface': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/mahmmudqatmh/ros2_ws/build/custom_interface
+[3.465s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(custom_interface)
+[3.465s] Level 1:colcon.colcon_core.environment:checking '/home/mahmmudqatmh/ros2_ws/install/custom_interface' for CMake module files
+[3.466s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/mahmmudqatmh/ros2_ws/build/custom_interface' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/mahmmudqatmh/ros2_ws/build/custom_interface
+[3.466s] Level 1:colcon.colcon_core.environment:checking '/home/mahmmudqatmh/ros2_ws/install/custom_interface' for CMake config files
+[3.466s] Level 1:colcon.colcon_core.shell:create_environment_hook('custom_interface', 'cmake_prefix_path')
+[3.466s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mahmmudqatmh/ros2_ws/install/custom_interface/share/custom_interface/hook/cmake_prefix_path.ps1'
+[3.467s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mahmmudqatmh/ros2_ws/install/custom_interface/share/custom_interface/hook/cmake_prefix_path.dsv'
+[3.467s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mahmmudqatmh/ros2_ws/install/custom_interface/share/custom_interface/hook/cmake_prefix_path.sh'
+[3.467s] Level 1:colcon.colcon_core.environment:checking '/home/mahmmudqatmh/ros2_ws/install/custom_interface/lib'
+[3.467s] Level 1:colcon.colcon_core.shell:create_environment_hook('custom_interface', 'ld_library_path_lib')
+[3.467s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mahmmudqatmh/ros2_ws/install/custom_interface/share/custom_interface/hook/ld_library_path_lib.ps1'
+[3.468s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mahmmudqatmh/ros2_ws/install/custom_interface/share/custom_interface/hook/ld_library_path_lib.dsv'
+[3.468s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mahmmudqatmh/ros2_ws/install/custom_interface/share/custom_interface/hook/ld_library_path_lib.sh'
+[3.468s] Level 1:colcon.colcon_core.environment:checking '/home/mahmmudqatmh/ros2_ws/install/custom_interface/bin'
+[3.468s] Level 1:colcon.colcon_core.environment:checking '/home/mahmmudqatmh/ros2_ws/install/custom_interface/lib/pkgconfig/custom_interface.pc'
+[3.468s] Level 1:colcon.colcon_core.environment:checking '/home/mahmmudqatmh/ros2_ws/install/custom_interface/lib/python3.10/site-packages'
+[3.468s] Level 1:colcon.colcon_core.environment:checking '/home/mahmmudqatmh/ros2_ws/install/custom_interface/bin'
+[3.468s] INFO:colcon.colcon_core.shell:Creating package script '/home/mahmmudqatmh/ros2_ws/install/custom_interface/share/custom_interface/package.ps1'
+[3.469s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/mahmmudqatmh/ros2_ws/install/custom_interface/share/custom_interface/package.dsv'
+[3.469s] INFO:colcon.colcon_core.shell:Creating package script '/home/mahmmudqatmh/ros2_ws/install/custom_interface/share/custom_interface/package.sh'
+[3.469s] INFO:colcon.colcon_core.shell:Creating package script '/home/mahmmudqatmh/ros2_ws/install/custom_interface/share/custom_interface/package.bash'
+[3.469s] INFO:colcon.colcon_core.shell:Creating package script '/home/mahmmudqatmh/ros2_ws/install/custom_interface/share/custom_interface/package.zsh'
+[3.469s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/mahmmudqatmh/ros2_ws/install/custom_interface/share/colcon-core/packages/custom_interface)
+[3.470s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(custom_interface)
+[3.470s] Level 1:colcon.colcon_core.environment:checking '/home/mahmmudqatmh/ros2_ws/install/custom_interface' for CMake module files
+[3.470s] Level 1:colcon.colcon_core.environment:checking '/home/mahmmudqatmh/ros2_ws/install/custom_interface' for CMake config files
+[3.470s] Level 1:colcon.colcon_core.shell:create_environment_hook('custom_interface', 'cmake_prefix_path')
+[3.471s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mahmmudqatmh/ros2_ws/install/custom_interface/share/custom_interface/hook/cmake_prefix_path.ps1'
+[3.471s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mahmmudqatmh/ros2_ws/install/custom_interface/share/custom_interface/hook/cmake_prefix_path.dsv'
+[3.471s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mahmmudqatmh/ros2_ws/install/custom_interface/share/custom_interface/hook/cmake_prefix_path.sh'
+[3.471s] Level 1:colcon.colcon_core.environment:checking '/home/mahmmudqatmh/ros2_ws/install/custom_interface/lib'
+[3.471s] Level 1:colcon.colcon_core.shell:create_environment_hook('custom_interface', 'ld_library_path_lib')
+[3.471s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mahmmudqatmh/ros2_ws/install/custom_interface/share/custom_interface/hook/ld_library_path_lib.ps1'
+[3.472s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mahmmudqatmh/ros2_ws/install/custom_interface/share/custom_interface/hook/ld_library_path_lib.dsv'
+[3.472s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mahmmudqatmh/ros2_ws/install/custom_interface/share/custom_interface/hook/ld_library_path_lib.sh'
+[3.472s] Level 1:colcon.colcon_core.environment:checking '/home/mahmmudqatmh/ros2_ws/install/custom_interface/bin'
+[3.472s] Level 1:colcon.colcon_core.environment:checking '/home/mahmmudqatmh/ros2_ws/install/custom_interface/lib/pkgconfig/custom_interface.pc'
+[3.472s] Level 1:colcon.colcon_core.environment:checking '/home/mahmmudqatmh/ros2_ws/install/custom_interface/lib/python3.10/site-packages'
+[3.472s] Level 1:colcon.colcon_core.environment:checking '/home/mahmmudqatmh/ros2_ws/install/custom_interface/bin'
+[3.472s] INFO:colcon.colcon_core.shell:Creating package script '/home/mahmmudqatmh/ros2_ws/install/custom_interface/share/custom_interface/package.ps1'
+[3.473s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/mahmmudqatmh/ros2_ws/install/custom_interface/share/custom_interface/package.dsv'
+[3.473s] INFO:colcon.colcon_core.shell:Creating package script '/home/mahmmudqatmh/ros2_ws/install/custom_interface/share/custom_interface/package.sh'
+[3.473s] INFO:colcon.colcon_core.shell:Creating package script '/home/mahmmudqatmh/ros2_ws/install/custom_interface/share/custom_interface/package.bash'
+[3.473s] INFO:colcon.colcon_core.shell:Creating package script '/home/mahmmudqatmh/ros2_ws/install/custom_interface/share/custom_interface/package.zsh'
+[3.474s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/mahmmudqatmh/ros2_ws/install/custom_interface/share/colcon-core/packages/custom_interface)
+[3.474s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/mahmmudqatmh/ros2_ws/src/distance_service' with build type 'ament_python'
+[3.474s] Level 1:colcon.colcon_core.shell:create_environment_hook('distance_service', 'ament_prefix_path')
+[3.474s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mahmmudqatmh/ros2_ws/install/distance_service/share/distance_service/hook/ament_prefix_path.ps1'
+[3.474s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mahmmudqatmh/ros2_ws/install/distance_service/share/distance_service/hook/ament_prefix_path.dsv'
+[3.475s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mahmmudqatmh/ros2_ws/install/distance_service/share/distance_service/hook/ament_prefix_path.sh'
+[3.475s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.475s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.632s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/mahmmudqatmh/ros2_ws/src/distance_service'
+[3.632s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.632s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.827s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/mahmmudqatmh/ros2_ws/src/distance_service': AMENT_PREFIX_PATH=/home/mahmmudqatmh/ros2_ws/install/custom_interface:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/mahmmudqatmh/ros2_ws/install/custom_interface LD_LIBRARY_PATH=/home/mahmmudqatmh/ros2_ws/install/custom_interface/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/mahmmudqatmh/ros2_ws/build/distance_service/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mahmmudqatmh/ros2_ws/install/distance_service/lib/python3.10/site-packages:/home/mahmmudqatmh/ros2_ws/install/custom_interface/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/distance_service build --build-base /home/mahmmudqatmh/ros2_ws/build/distance_service/build install --record /home/mahmmudqatmh/ros2_ws/build/distance_service/install.log --single-version-externally-managed install_data
+[3.995s] Level 1:colcon.colcon_core.environment:checking '/home/mahmmudqatmh/ros2_ws/install/distance_service' for CMake module files
+[3.996s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/mahmmudqatmh/ros2_ws/src/distance_service' returned '0': AMENT_PREFIX_PATH=/home/mahmmudqatmh/ros2_ws/install/custom_interface:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/mahmmudqatmh/ros2_ws/install/custom_interface LD_LIBRARY_PATH=/home/mahmmudqatmh/ros2_ws/install/custom_interface/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/mahmmudqatmh/ros2_ws/build/distance_service/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mahmmudqatmh/ros2_ws/install/distance_service/lib/python3.10/site-packages:/home/mahmmudqatmh/ros2_ws/install/custom_interface/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/distance_service build --build-base /home/mahmmudqatmh/ros2_ws/build/distance_service/build install --record /home/mahmmudqatmh/ros2_ws/build/distance_service/install.log --single-version-externally-managed install_data
+[3.996s] Level 1:colcon.colcon_core.environment:checking '/home/mahmmudqatmh/ros2_ws/install/distance_service' for CMake config files
+[3.996s] Level 1:colcon.colcon_core.environment:checking '/home/mahmmudqatmh/ros2_ws/install/distance_service/lib'
+[3.996s] Level 1:colcon.colcon_core.environment:checking '/home/mahmmudqatmh/ros2_ws/install/distance_service/bin'
+[3.996s] Level 1:colcon.colcon_core.environment:checking '/home/mahmmudqatmh/ros2_ws/install/distance_service/lib/pkgconfig/distance_service.pc'
+[3.996s] Level 1:colcon.colcon_core.environment:checking '/home/mahmmudqatmh/ros2_ws/install/distance_service/lib/python3.10/site-packages'
+[3.996s] Level 1:colcon.colcon_core.shell:create_environment_hook('distance_service', 'pythonpath')
+[3.997s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mahmmudqatmh/ros2_ws/install/distance_service/share/distance_service/hook/pythonpath.ps1'
+[3.997s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mahmmudqatmh/ros2_ws/install/distance_service/share/distance_service/hook/pythonpath.dsv'
+[3.997s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mahmmudqatmh/ros2_ws/install/distance_service/share/distance_service/hook/pythonpath.sh'
+[3.997s] Level 1:colcon.colcon_core.environment:checking '/home/mahmmudqatmh/ros2_ws/install/distance_service/bin'
+[3.997s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(distance_service)
+[3.998s] INFO:colcon.colcon_core.shell:Creating package script '/home/mahmmudqatmh/ros2_ws/install/distance_service/share/distance_service/package.ps1'
+[3.998s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/mahmmudqatmh/ros2_ws/install/distance_service/share/distance_service/package.dsv'
+[3.998s] INFO:colcon.colcon_core.shell:Creating package script '/home/mahmmudqatmh/ros2_ws/install/distance_service/share/distance_service/package.sh'
+[3.998s] INFO:colcon.colcon_core.shell:Creating package script '/home/mahmmudqatmh/ros2_ws/install/distance_service/share/distance_service/package.bash'
+[3.998s] INFO:colcon.colcon_core.shell:Creating package script '/home/mahmmudqatmh/ros2_ws/install/distance_service/share/distance_service/package.zsh'
+[3.999s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/mahmmudqatmh/ros2_ws/install/distance_service/share/colcon-core/packages/distance_service)
+[3.999s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[3.999s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[3.999s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[3.999s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[4.002s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[4.002s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[4.002s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[4.010s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[4.010s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/mahmmudqatmh/ros2_ws/install/local_setup.ps1'
+[4.011s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/mahmmudqatmh/ros2_ws/install/_local_setup_util_ps1.py'
+[4.011s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/mahmmudqatmh/ros2_ws/install/setup.ps1'
+[4.012s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/mahmmudqatmh/ros2_ws/install/local_setup.sh'
+[4.012s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/mahmmudqatmh/ros2_ws/install/_local_setup_util_sh.py'
+[4.012s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/mahmmudqatmh/ros2_ws/install/setup.sh'
+[4.013s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/mahmmudqatmh/ros2_ws/install/local_setup.bash'
+[4.013s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/mahmmudqatmh/ros2_ws/install/setup.bash'
+[4.014s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/mahmmudqatmh/ros2_ws/install/local_setup.zsh'
+[4.014s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/mahmmudqatmh/ros2_ws/install/setup.zsh'

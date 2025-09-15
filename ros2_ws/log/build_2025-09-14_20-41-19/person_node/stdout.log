@@ -1,0 +1,37 @@
+running egg_info
+creating ../../build/person_node/person_node.egg-info
+writing ../../build/person_node/person_node.egg-info/PKG-INFO
+writing dependency_links to ../../build/person_node/person_node.egg-info/dependency_links.txt
+writing entry points to ../../build/person_node/person_node.egg-info/entry_points.txt
+writing requirements to ../../build/person_node/person_node.egg-info/requires.txt
+writing top-level names to ../../build/person_node/person_node.egg-info/top_level.txt
+writing manifest file '../../build/person_node/person_node.egg-info/SOURCES.txt'
+reading manifest file '../../build/person_node/person_node.egg-info/SOURCES.txt'
+writing manifest file '../../build/person_node/person_node.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/mahmmudqatmh/ros2_ws/build/person_node/build
+creating /home/mahmmudqatmh/ros2_ws/build/person_node/build/lib
+creating /home/mahmmudqatmh/ros2_ws/build/person_node/build/lib/person_node
+copying person_node/publisher_person.py -> /home/mahmmudqatmh/ros2_ws/build/person_node/build/lib/person_node
+copying person_node/subscriber_person.py -> /home/mahmmudqatmh/ros2_ws/build/person_node/build/lib/person_node
+copying person_node/__init__.py -> /home/mahmmudqatmh/ros2_ws/build/person_node/build/lib/person_node
+running install
+running install_lib
+creating /home/mahmmudqatmh/ros2_ws/install/person_node/lib/python3.10/site-packages/person_node
+copying /home/mahmmudqatmh/ros2_ws/build/person_node/build/lib/person_node/publisher_person.py -> /home/mahmmudqatmh/ros2_ws/install/person_node/lib/python3.10/site-packages/person_node
+copying /home/mahmmudqatmh/ros2_ws/build/person_node/build/lib/person_node/subscriber_person.py -> /home/mahmmudqatmh/ros2_ws/install/person_node/lib/python3.10/site-packages/person_node
+copying /home/mahmmudqatmh/ros2_ws/build/person_node/build/lib/person_node/__init__.py -> /home/mahmmudqatmh/ros2_ws/install/person_node/lib/python3.10/site-packages/person_node
+byte-compiling /home/mahmmudqatmh/ros2_ws/install/person_node/lib/python3.10/site-packages/person_node/publisher_person.py to publisher_person.cpython-310.pyc
+byte-compiling /home/mahmmudqatmh/ros2_ws/install/person_node/lib/python3.10/site-packages/person_node/subscriber_person.py to subscriber_person.cpython-310.pyc
+byte-compiling /home/mahmmudqatmh/ros2_ws/install/person_node/lib/python3.10/site-packages/person_node/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /home/mahmmudqatmh/ros2_ws/install/person_node/share/ament_index
+creating /home/mahmmudqatmh/ros2_ws/install/person_node/share/ament_index/resource_index
+creating /home/mahmmudqatmh/ros2_ws/install/person_node/share/ament_index/resource_index/packages
+copying resource/person_node -> /home/mahmmudqatmh/ros2_ws/install/person_node/share/ament_index/resource_index/packages
+copying package.xml -> /home/mahmmudqatmh/ros2_ws/install/person_node/share/person_node
+running install_egg_info
+Copying ../../build/person_node/person_node.egg-info to /home/mahmmudqatmh/ros2_ws/install/person_node/lib/python3.10/site-packages/person_node-0.0.0-py3.10.egg-info
+running install_scripts
+writing list of installed files to '/home/mahmmudqatmh/ros2_ws/build/person_node/install.log'

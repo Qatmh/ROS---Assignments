@@ -1,0 +1,5 @@
+[console_scripts]
+countdown_cancel_client = countdown_nodes.countdown_cancel_client:main
+countdown_client = countdown_nodes.countdown_client:main
+countdown_server = countdown_nodes.countdown_server:main
+

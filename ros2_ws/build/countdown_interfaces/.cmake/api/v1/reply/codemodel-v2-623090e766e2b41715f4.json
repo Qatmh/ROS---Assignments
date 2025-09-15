@@ -1,0 +1,233 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-0e70b64bddfd566f9cb4.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				},
+				{
+					"build" : "countdown_interfaces__py",
+					"jsonFile" : "directory-countdown_interfaces__py-5fed5b5c15f88a5d5044.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/mahmmudqatmh/ros2_ws/build/countdown_interfaces/countdown_interfaces__py",
+					"targetIndexes" : 
+					[
+						4
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "countdown_interfaces",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_countdown_interfaces_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_countdown_interfaces_egg-590706ca9bebeeb971b6.json",
+					"name" : "ament_cmake_python_build_countdown_interfaces_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_copy_countdown_interfaces::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_copy_countdown_interfaces-24431f0149380094a645.json",
+					"name" : "ament_cmake_python_copy_countdown_interfaces",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "countdown_interfaces::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-countdown_interfaces-5854bdfaa149fa404be9.json",
+					"name" : "countdown_interfaces",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "countdown_interfaces__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-countdown_interfaces__cpp-943602cafb476c4d7166.json",
+					"name" : "countdown_interfaces__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "countdown_interfaces__py::@0535d2ff00797dbf4c91",
+					"jsonFile" : "target-countdown_interfaces__py-0669a42db1d0c75c518e.json",
+					"name" : "countdown_interfaces__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "countdown_interfaces__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-countdown_interfaces__rosidl_generator_c-365cd7d680f10ad288fb.json",
+					"name" : "countdown_interfaces__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "countdown_interfaces__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-countdown_interfaces__rosidl_generator_py-67eba385e88d6e7a5c0a.json",
+					"name" : "countdown_interfaces__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "countdown_interfaces__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-countdown_interfaces__rosidl_typesupport_c-1412b6923de6baff4d63.json",
+					"name" : "countdown_interfaces__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "countdown_interfaces__rosidl_typesupport_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-countdown_interfaces__rosidl_typesupport_c__pyext-99fa2af9fea275f3bbd9.json",
+					"name" : "countdown_interfaces__rosidl_typesupport_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "countdown_interfaces__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-countdown_interfaces__rosidl_typesupport_cpp-eb495220c704497b7402.json",
+					"name" : "countdown_interfaces__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "countdown_interfaces__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-countdown_interfaces__rosidl_typesupport_fastrtps_c-bb410f463afed8b1c606.json",
+					"name" : "countdown_interfaces__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "countdown_interfaces__rosidl_typesupport_fastrtps_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-countdown_interfaces__rosidl_typesupport_fastrtps_c__pyext-acebe131e58f716af1e6.json",
+					"name" : "countdown_interfaces__rosidl_typesupport_fastrtps_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "countdown_interfaces__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-countdown_interfaces__rosidl_typesupport_fastrtps_cpp-970fd7001f496457dbc6.json",
+					"name" : "countdown_interfaces__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "countdown_interfaces__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-countdown_interfaces__rosidl_typesupport_introspection_c-9035f5c2f8ab54253b24.json",
+					"name" : "countdown_interfaces__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "countdown_interfaces__rosidl_typesupport_introspection_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-countdown_interfaces__rosidl_typesupport_introspection_c__pyext-80e3c764674e4b1b4d47.json",
+					"name" : "countdown_interfaces__rosidl_typesupport_introspection_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "countdown_interfaces__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-countdown_interfaces__rosidl_typesupport_introspection_cpp-88f8f6c3f3b1d3592a73.json",
+					"name" : "countdown_interfaces__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "countdown_interfaces_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-countdown_interfaces_uninstall-274890d3a25b5407874d.json",
+					"name" : "countdown_interfaces_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-111ae23e1495b3da66a6.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/mahmmudqatmh/ros2_ws/build/countdown_interfaces",
+		"source" : "/home/mahmmudqatmh/ros2_ws/countdown_interfaces"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

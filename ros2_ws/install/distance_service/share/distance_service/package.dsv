@@ -1,0 +1,6 @@
+source;share/distance_service/hook/pythonpath.ps1
+source;share/distance_service/hook/pythonpath.dsv
+source;share/distance_service/hook/pythonpath.sh
+source;share/distance_service/hook/ament_prefix_path.ps1
+source;share/distance_service/hook/ament_prefix_path.dsv
+source;share/distance_service/hook/ament_prefix_path.sh

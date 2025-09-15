@@ -1,0 +1,22 @@
+[0.558s] Invoking command in '/home/mahmmudqatmh/ros2_ws/src/person_node': PYTHONPATH=/home/mahmmudqatmh/ros2_ws/build/person_node/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mahmmudqatmh/ros2_ws/install/person_node/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/person_node build --build-base /home/mahmmudqatmh/ros2_ws/build/person_node/build install --record /home/mahmmudqatmh/ros2_ws/build/person_node/install.log --single-version-externally-managed install_data
+[0.724s] running egg_info
+[0.724s] writing ../../build/person_node/person_node.egg-info/PKG-INFO
+[0.724s] writing dependency_links to ../../build/person_node/person_node.egg-info/dependency_links.txt
+[0.724s] writing entry points to ../../build/person_node/person_node.egg-info/entry_points.txt
+[0.724s] writing requirements to ../../build/person_node/person_node.egg-info/requires.txt
+[0.725s] writing top-level names to ../../build/person_node/person_node.egg-info/top_level.txt
+[0.726s] reading manifest file '../../build/person_node/person_node.egg-info/SOURCES.txt'
+[0.726s] writing manifest file '../../build/person_node/person_node.egg-info/SOURCES.txt'
+[0.726s] running build
+[0.727s] running build_py
+[0.727s] running install
+[0.727s] running install_lib
+[0.727s] running install_data
+[0.727s] running install_egg_info
+[0.729s] removing '/home/mahmmudqatmh/ros2_ws/install/person_node/lib/python3.10/site-packages/person_node-0.0.0-py3.10.egg-info' (and everything under it)
+[0.729s] Copying ../../build/person_node/person_node.egg-info to /home/mahmmudqatmh/ros2_ws/install/person_node/lib/python3.10/site-packages/person_node-0.0.0-py3.10.egg-info
+[0.729s] running install_scripts
+[0.745s] Installing publisher_person script to /home/mahmmudqatmh/ros2_ws/install/person_node/lib/person_node
+[0.746s] Installing subscriber_person script to /home/mahmmudqatmh/ros2_ws/install/person_node/lib/person_node
+[0.746s] writing list of installed files to '/home/mahmmudqatmh/ros2_ws/build/person_node/install.log'
+[0.769s] Invoked command in '/home/mahmmudqatmh/ros2_ws/src/person_node' returned '0': PYTHONPATH=/home/mahmmudqatmh/ros2_ws/build/person_node/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mahmmudqatmh/ros2_ws/install/person_node/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/person_node build --build-base /home/mahmmudqatmh/ros2_ws/build/person_node/build install --record /home/mahmmudqatmh/ros2_ws/build/person_node/install.log --single-version-externally-managed install_data

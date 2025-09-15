@@ -1,0 +1,6 @@
+Invoking command in '/home/mahmmudqatmh/ros2_ws/build/countdown_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/mahmmudqatmh/ros2_ws/countdown_interfaces -DCMAKE_INSTALL_PREFIX=/home/mahmmudqatmh/ros2_ws/install/countdown_interfaces
+Invoked command in '/home/mahmmudqatmh/ros2_ws/build/countdown_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/mahmmudqatmh/ros2_ws/countdown_interfaces -DCMAKE_INSTALL_PREFIX=/home/mahmmudqatmh/ros2_ws/install/countdown_interfaces
+Invoking command in '/home/mahmmudqatmh/ros2_ws/build/countdown_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/mahmmudqatmh/ros2_ws/build/countdown_interfaces -- -j24 -l24
+Invoked command in '/home/mahmmudqatmh/ros2_ws/build/countdown_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/mahmmudqatmh/ros2_ws/build/countdown_interfaces -- -j24 -l24
+Invoking command in '/home/mahmmudqatmh/ros2_ws/build/countdown_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/mahmmudqatmh/ros2_ws/build/countdown_interfaces
+Invoked command in '/home/mahmmudqatmh/ros2_ws/build/countdown_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/mahmmudqatmh/ros2_ws/build/countdown_interfaces
