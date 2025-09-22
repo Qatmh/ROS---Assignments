@@ -1,4 +1,0 @@
-[console_scripts]
-distance_client = distance_service.distance_client:main
-distance_server = distance_service.distance_server:main
-

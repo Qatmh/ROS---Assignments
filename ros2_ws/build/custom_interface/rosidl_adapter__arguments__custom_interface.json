@@ -1,8 +1,0 @@
-{
-  "package_name": "custom_interface",
-  "non_idl_tuples": [
-    "/home/mahmmudqatmh/ros2_ws/src/custom_interface:msg/Person.msg",
-    "/home/mahmmudqatmh/ros2_ws/src/custom_interface:srv/AddThreeInts.srv",
-    "/home/mahmmudqatmh/ros2_ws/src/custom_interface:srv/Distance.srv"
-  ]
-}

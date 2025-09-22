@@ -1,4 +1,0 @@
-[console_scripts]
-publisher_pose = pose_line.publisher_pose:main
-subscriber_pose = pose_line.subscriber_pose:main
-
