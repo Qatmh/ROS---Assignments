@@ -1,0 +1,20 @@
+[0.899s] Invoking command in '/home/lassi/ros2_lab2_ws/src/tutorial_pkg': PYTHONPATH=/home/lassi/ros2_lab2_ws/src/build/tutorial_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/lassi/ros2_lab2_ws/src/install/tutorial_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/tutorial_pkg build --build-base /home/lassi/ros2_lab2_ws/src/build/tutorial_pkg/build install --record /home/lassi/ros2_lab2_ws/src/build/tutorial_pkg/install.log --single-version-externally-managed install_data
+[1.126s] running egg_info
+[1.127s] writing ../build/tutorial_pkg/tutorial_pkg.egg-info/PKG-INFO
+[1.127s] writing dependency_links to ../build/tutorial_pkg/tutorial_pkg.egg-info/dependency_links.txt
+[1.127s] writing entry points to ../build/tutorial_pkg/tutorial_pkg.egg-info/entry_points.txt
+[1.127s] writing requirements to ../build/tutorial_pkg/tutorial_pkg.egg-info/requires.txt
+[1.127s] writing top-level names to ../build/tutorial_pkg/tutorial_pkg.egg-info/top_level.txt
+[1.129s] reading manifest file '../build/tutorial_pkg/tutorial_pkg.egg-info/SOURCES.txt'
+[1.139s] writing manifest file '../build/tutorial_pkg/tutorial_pkg.egg-info/SOURCES.txt'
+[1.139s] running build
+[1.139s] running build_py
+[1.139s] running install
+[1.139s] running install_lib
+[1.139s] running install_data
+[1.139s] running install_egg_info
+[1.142s] removing '/home/lassi/ros2_lab2_ws/src/install/tutorial_pkg/lib/python3.10/site-packages/tutorial_pkg-0.0.0-py3.10.egg-info' (and everything under it)
+[1.143s] Copying ../build/tutorial_pkg/tutorial_pkg.egg-info to /home/lassi/ros2_lab2_ws/src/install/tutorial_pkg/lib/python3.10/site-packages/tutorial_pkg-0.0.0-py3.10.egg-info
+[1.145s] running install_scripts
+[1.168s] writing list of installed files to '/home/lassi/ros2_lab2_ws/src/build/tutorial_pkg/install.log'
+[1.192s] Invoked command in '/home/lassi/ros2_lab2_ws/src/tutorial_pkg' returned '0': PYTHONPATH=/home/lassi/ros2_lab2_ws/src/build/tutorial_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/lassi/ros2_lab2_ws/src/install/tutorial_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/tutorial_pkg build --build-base /home/lassi/ros2_lab2_ws/src/build/tutorial_pkg/build install --record /home/lassi/ros2_lab2_ws/src/build/tutorial_pkg/install.log --single-version-externally-managed install_data

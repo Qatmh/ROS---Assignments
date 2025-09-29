@@ -1,0 +1,37 @@
+running egg_info
+creating ../build/gazebo_example/gazebo_example.egg-info
+writing ../build/gazebo_example/gazebo_example.egg-info/PKG-INFO
+writing dependency_links to ../build/gazebo_example/gazebo_example.egg-info/dependency_links.txt
+writing entry points to ../build/gazebo_example/gazebo_example.egg-info/entry_points.txt
+writing requirements to ../build/gazebo_example/gazebo_example.egg-info/requires.txt
+writing top-level names to ../build/gazebo_example/gazebo_example.egg-info/top_level.txt
+writing manifest file '../build/gazebo_example/gazebo_example.egg-info/SOURCES.txt'
+reading manifest file '../build/gazebo_example/gazebo_example.egg-info/SOURCES.txt'
+writing manifest file '../build/gazebo_example/gazebo_example.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/lassi/ros2_lab2_ws/src/build/gazebo_example/build
+creating /home/lassi/ros2_lab2_ws/src/build/gazebo_example/build/lib
+creating /home/lassi/ros2_lab2_ws/src/build/gazebo_example/build/lib/gazebo_example
+copying gazebo_example/__init__.py -> /home/lassi/ros2_lab2_ws/src/build/gazebo_example/build/lib/gazebo_example
+copying gazebo_example/gazebo_example.launch.py -> /home/lassi/ros2_lab2_ws/src/build/gazebo_example/build/lib/gazebo_example
+running install
+running install_lib
+creating /home/lassi/ros2_lab2_ws/src/install/gazebo_example/lib/python3.10/site-packages/gazebo_example
+copying /home/lassi/ros2_lab2_ws/src/build/gazebo_example/build/lib/gazebo_example/__init__.py -> /home/lassi/ros2_lab2_ws/src/install/gazebo_example/lib/python3.10/site-packages/gazebo_example
+copying /home/lassi/ros2_lab2_ws/src/build/gazebo_example/build/lib/gazebo_example/gazebo_example.launch.py -> /home/lassi/ros2_lab2_ws/src/install/gazebo_example/lib/python3.10/site-packages/gazebo_example
+byte-compiling /home/lassi/ros2_lab2_ws/src/install/gazebo_example/lib/python3.10/site-packages/gazebo_example/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/lassi/ros2_lab2_ws/src/install/gazebo_example/lib/python3.10/site-packages/gazebo_example/gazebo_example.launch.py to gazebo_example.launch.cpython-310.pyc
+running install_data
+creating /home/lassi/ros2_lab2_ws/src/install/gazebo_example/share/ament_index
+creating /home/lassi/ros2_lab2_ws/src/install/gazebo_example/share/ament_index/resource_index
+creating /home/lassi/ros2_lab2_ws/src/install/gazebo_example/share/ament_index/resource_index/packages
+copying resource/gazebo_example -> /home/lassi/ros2_lab2_ws/src/install/gazebo_example/share/ament_index/resource_index/packages
+copying package.xml -> /home/lassi/ros2_lab2_ws/src/install/gazebo_example/share/gazebo_example
+creating /home/lassi/ros2_lab2_ws/src/install/gazebo_example/share/gazebo_example/launch
+creating /home/lassi/ros2_lab2_ws/src/install/gazebo_example/share/gazebo_example/worlds
+copying worlds/world.world -> /home/lassi/ros2_lab2_ws/src/install/gazebo_example/share/gazebo_example/worlds
+running install_egg_info
+Copying ../build/gazebo_example/gazebo_example.egg-info to /home/lassi/ros2_lab2_ws/src/install/gazebo_example/lib/python3.10/site-packages/gazebo_example-0.0.0-py3.10.egg-info
+running install_scripts
+writing list of installed files to '/home/lassi/ros2_lab2_ws/src/build/gazebo_example/install.log'

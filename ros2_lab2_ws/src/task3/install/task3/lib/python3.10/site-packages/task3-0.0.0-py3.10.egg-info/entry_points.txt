@@ -1,0 +1,6 @@
+[console_scripts]
+lidar_broadcaster = task3.lidar_broadcaster:main
+revolution_counter = task3.revolution_listener:main
+scanner_broadcaster = task3.scanner_broadcaster:main
+tf_listener = task3.tf_listener:main
+

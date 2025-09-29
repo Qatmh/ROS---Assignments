@@ -1,0 +1,35 @@
+[1.053s] Invoking command in '/home/lassi/ros2_lab2_ws/src/task3': PYTHONPATH=/home/lassi/ros2_lab2_ws/src/build/task3/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/lassi/ros2_lab2_ws/src/install/task3/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/task3 build --build-base /home/lassi/ros2_lab2_ws/src/build/task3/build install --record /home/lassi/ros2_lab2_ws/src/build/task3/install.log --single-version-externally-managed install_data
+[1.300s] running egg_info
+[1.300s] writing ../build/task3/task3.egg-info/PKG-INFO
+[1.300s] writing dependency_links to ../build/task3/task3.egg-info/dependency_links.txt
+[1.301s] writing entry points to ../build/task3/task3.egg-info/entry_points.txt
+[1.363s] writing requirements to ../build/task3/task3.egg-info/requires.txt
+[1.363s] writing top-level names to ../build/task3/task3.egg-info/top_level.txt
+[1.363s] reading manifest file '../build/task3/task3.egg-info/SOURCES.txt'
+[1.363s] writing manifest file '../build/task3/task3.egg-info/SOURCES.txt'
+[1.363s] running build
+[1.363s] running build_py
+[1.363s] copying task3/revolution_listener.py -> /home/lassi/ros2_lab2_ws/src/build/task3/build/lib/task3
+[1.371s] copying task3/tf_listener.py -> /home/lassi/ros2_lab2_ws/src/build/task3/build/lib/task3
+[1.371s] copying task3/lidar_broadcaster.py -> /home/lassi/ros2_lab2_ws/src/build/task3/build/lib/task3
+[1.371s] copying task3/scanner_broadcaster.py -> /home/lassi/ros2_lab2_ws/src/build/task3/build/lib/task3
+[1.371s] running install
+[1.371s] running install_lib
+[1.372s] copying /home/lassi/ros2_lab2_ws/src/build/task3/build/lib/task3/revolution_listener.py -> /home/lassi/ros2_lab2_ws/src/install/task3/lib/python3.10/site-packages/task3
+[1.372s] copying /home/lassi/ros2_lab2_ws/src/build/task3/build/lib/task3/tf_listener.py -> /home/lassi/ros2_lab2_ws/src/install/task3/lib/python3.10/site-packages/task3
+[1.372s] copying /home/lassi/ros2_lab2_ws/src/build/task3/build/lib/task3/lidar_broadcaster.py -> /home/lassi/ros2_lab2_ws/src/install/task3/lib/python3.10/site-packages/task3
+[1.372s] copying /home/lassi/ros2_lab2_ws/src/build/task3/build/lib/task3/scanner_broadcaster.py -> /home/lassi/ros2_lab2_ws/src/install/task3/lib/python3.10/site-packages/task3
+[1.372s] byte-compiling /home/lassi/ros2_lab2_ws/src/install/task3/lib/python3.10/site-packages/task3/revolution_listener.py to revolution_listener.cpython-310.pyc
+[1.372s] byte-compiling /home/lassi/ros2_lab2_ws/src/install/task3/lib/python3.10/site-packages/task3/tf_listener.py to tf_listener.cpython-310.pyc
+[1.372s] byte-compiling /home/lassi/ros2_lab2_ws/src/install/task3/lib/python3.10/site-packages/task3/lidar_broadcaster.py to lidar_broadcaster.cpython-310.pyc
+[1.382s] byte-compiling /home/lassi/ros2_lab2_ws/src/install/task3/lib/python3.10/site-packages/task3/scanner_broadcaster.py to scanner_broadcaster.cpython-310.pyc
+[1.382s] running install_data
+[1.382s] running install_egg_info
+[1.388s] removing '/home/lassi/ros2_lab2_ws/src/install/task3/lib/python3.10/site-packages/task3-0.0.0-py3.10.egg-info' (and everything under it)
+[1.393s] Copying ../build/task3/task3.egg-info to /home/lassi/ros2_lab2_ws/src/install/task3/lib/python3.10/site-packages/task3-0.0.0-py3.10.egg-info
+[1.393s] running install_scripts
+[1.423s] Installing lidar_broadcaster script to /home/lassi/ros2_lab2_ws/src/install/task3/lib/task3
+[1.423s] Installing revolution_counter script to /home/lassi/ros2_lab2_ws/src/install/task3/lib/task3
+[1.424s] Installing scanner_broadcaster script to /home/lassi/ros2_lab2_ws/src/install/task3/lib/task3
+[1.425s] writing list of installed files to '/home/lassi/ros2_lab2_ws/src/build/task3/install.log'
+[1.491s] Invoked command in '/home/lassi/ros2_lab2_ws/src/task3' returned '0': PYTHONPATH=/home/lassi/ros2_lab2_ws/src/build/task3/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/lassi/ros2_lab2_ws/src/install/task3/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/task3 build --build-base /home/lassi/ros2_lab2_ws/src/build/task3/build install --record /home/lassi/ros2_lab2_ws/src/build/task3/install.log --single-version-externally-managed install_data

@@ -1,0 +1,37 @@
+running egg_info
+creating ../build/task3/task3.egg-info
+writing ../build/task3/task3.egg-info/PKG-INFO
+writing dependency_links to ../build/task3/task3.egg-info/dependency_links.txt
+writing entry points to ../build/task3/task3.egg-info/entry_points.txt
+writing requirements to ../build/task3/task3.egg-info/requires.txt
+writing top-level names to ../build/task3/task3.egg-info/top_level.txt
+writing manifest file '../build/task3/task3.egg-info/SOURCES.txt'
+reading manifest file '../build/task3/task3.egg-info/SOURCES.txt'
+writing manifest file '../build/task3/task3.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/lassi/ros2_lab2_ws/src/build/task3/build
+creating /home/lassi/ros2_lab2_ws/src/build/task3/build/lib
+creating /home/lassi/ros2_lab2_ws/src/build/task3/build/lib/task3
+copying task3/static_lidar_broadcaster.py -> /home/lassi/ros2_lab2_ws/src/build/task3/build/lib/task3
+copying task3/__init__.py -> /home/lassi/ros2_lab2_ws/src/build/task3/build/lib/task3
+running install
+running install_lib
+creating /home/lassi/ros2_lab2_ws/src/install/task3/lib/python3.10/site-packages/task3
+copying /home/lassi/ros2_lab2_ws/src/build/task3/build/lib/task3/static_lidar_broadcaster.py -> /home/lassi/ros2_lab2_ws/src/install/task3/lib/python3.10/site-packages/task3
+copying /home/lassi/ros2_lab2_ws/src/build/task3/build/lib/task3/__init__.py -> /home/lassi/ros2_lab2_ws/src/install/task3/lib/python3.10/site-packages/task3
+byte-compiling /home/lassi/ros2_lab2_ws/src/install/task3/lib/python3.10/site-packages/task3/static_lidar_broadcaster.py to static_lidar_broadcaster.cpython-310.pyc
+byte-compiling /home/lassi/ros2_lab2_ws/src/install/task3/lib/python3.10/site-packages/task3/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /home/lassi/ros2_lab2_ws/src/install/task3/share/ament_index
+creating /home/lassi/ros2_lab2_ws/src/install/task3/share/ament_index/resource_index
+creating /home/lassi/ros2_lab2_ws/src/install/task3/share/ament_index/resource_index/packages
+copying resource/task3 -> /home/lassi/ros2_lab2_ws/src/install/task3/share/ament_index/resource_index/packages
+copying package.xml -> /home/lassi/ros2_lab2_ws/src/install/task3/share/task3
+creating /home/lassi/ros2_lab2_ws/src/install/task3/share/task3/launch
+creating /home/lassi/ros2_lab2_ws/src/install/task3/share/task3/img_data
+running install_egg_info
+Copying ../build/task3/task3.egg-info to /home/lassi/ros2_lab2_ws/src/install/task3/lib/python3.10/site-packages/task3-0.0.0-py3.10.egg-info
+running install_scripts
+Installing lidar_broadcaster script to /home/lassi/ros2_lab2_ws/src/install/task3/lib/task3
+writing list of installed files to '/home/lassi/ros2_lab2_ws/src/build/task3/install.log'

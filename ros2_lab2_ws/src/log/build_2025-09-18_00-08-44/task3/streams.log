@@ -1,0 +1,24 @@
+[0.782s] Invoking command in '/home/lassi/ros2_lab2_ws/src/task3': PYTHONPATH=/home/lassi/ros2_lab2_ws/src/build/task3/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/lassi/ros2_lab2_ws/src/install/task3/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/task3 build --build-base /home/lassi/ros2_lab2_ws/src/build/task3/build install --record /home/lassi/ros2_lab2_ws/src/build/task3/install.log --single-version-externally-managed install_data
+[0.980s] running egg_info
+[0.980s] writing ../build/task3/task3.egg-info/PKG-INFO
+[0.981s] writing dependency_links to ../build/task3/task3.egg-info/dependency_links.txt
+[0.982s] writing entry points to ../build/task3/task3.egg-info/entry_points.txt
+[0.982s] writing requirements to ../build/task3/task3.egg-info/requires.txt
+[0.982s] writing top-level names to ../build/task3/task3.egg-info/top_level.txt
+[0.982s] reading manifest file '../build/task3/task3.egg-info/SOURCES.txt'
+[0.982s] writing manifest file '../build/task3/task3.egg-info/SOURCES.txt'
+[0.982s] running build
+[0.984s] running build_py
+[0.984s] copying task3/lidar_broadcaster.py -> /home/lassi/ros2_lab2_ws/src/build/task3/build/lib/task3
+[0.984s] running install
+[0.984s] running install_lib
+[0.984s] copying /home/lassi/ros2_lab2_ws/src/build/task3/build/lib/task3/lidar_broadcaster.py -> /home/lassi/ros2_lab2_ws/src/install/task3/lib/python3.10/site-packages/task3
+[0.985s] byte-compiling /home/lassi/ros2_lab2_ws/src/install/task3/lib/python3.10/site-packages/task3/lidar_broadcaster.py to lidar_broadcaster.cpython-310.pyc
+[0.985s] running install_data
+[0.985s] running install_egg_info
+[0.987s] removing '/home/lassi/ros2_lab2_ws/src/install/task3/lib/python3.10/site-packages/task3-0.0.0-py3.10.egg-info' (and everything under it)
+[0.989s] Copying ../build/task3/task3.egg-info to /home/lassi/ros2_lab2_ws/src/install/task3/lib/python3.10/site-packages/task3-0.0.0-py3.10.egg-info
+[0.989s] running install_scripts
+[1.010s] Installing lidar_broadcaster script to /home/lassi/ros2_lab2_ws/src/install/task3/lib/task3
+[1.011s] writing list of installed files to '/home/lassi/ros2_lab2_ws/src/build/task3/install.log'
+[1.034s] Invoked command in '/home/lassi/ros2_lab2_ws/src/task3' returned '0': PYTHONPATH=/home/lassi/ros2_lab2_ws/src/build/task3/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/lassi/ros2_lab2_ws/src/install/task3/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/task3 build --build-base /home/lassi/ros2_lab2_ws/src/build/task3/build install --record /home/lassi/ros2_lab2_ws/src/build/task3/install.log --single-version-externally-managed install_data

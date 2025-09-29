@@ -1,0 +1,21 @@
+[0.923s] Invoking command in '/home/lassi/ros2_lab2_ws/src/gazebo_example': PYTHONPATH=/home/lassi/ros2_lab2_ws/src/build/gazebo_example/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/lassi/ros2_lab2_ws/src/install/gazebo_example/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/gazebo_example build --build-base /home/lassi/ros2_lab2_ws/src/build/gazebo_example/build install --record /home/lassi/ros2_lab2_ws/src/build/gazebo_example/install.log --single-version-externally-managed install_data
+[1.172s] running egg_info
+[1.172s] writing ../build/gazebo_example/gazebo_example.egg-info/PKG-INFO
+[1.173s] writing dependency_links to ../build/gazebo_example/gazebo_example.egg-info/dependency_links.txt
+[1.173s] writing entry points to ../build/gazebo_example/gazebo_example.egg-info/entry_points.txt
+[1.173s] writing requirements to ../build/gazebo_example/gazebo_example.egg-info/requires.txt
+[1.174s] writing top-level names to ../build/gazebo_example/gazebo_example.egg-info/top_level.txt
+[1.178s] reading manifest file '../build/gazebo_example/gazebo_example.egg-info/SOURCES.txt'
+[1.179s] writing manifest file '../build/gazebo_example/gazebo_example.egg-info/SOURCES.txt'
+[1.180s] running build
+[1.180s] running build_py
+[1.181s] running install
+[1.181s] running install_lib
+[1.181s] running install_data
+[1.181s] copying launch/gazebo_example.launch.py -> /home/lassi/ros2_lab2_ws/src/install/gazebo_example/share/gazebo_example/launch
+[1.181s] running install_egg_info
+[1.182s] removing '/home/lassi/ros2_lab2_ws/src/install/gazebo_example/lib/python3.10/site-packages/gazebo_example-0.0.0-py3.10.egg-info' (and everything under it)
+[1.183s] Copying ../build/gazebo_example/gazebo_example.egg-info to /home/lassi/ros2_lab2_ws/src/install/gazebo_example/lib/python3.10/site-packages/gazebo_example-0.0.0-py3.10.egg-info
+[1.188s] running install_scripts
+[1.211s] writing list of installed files to '/home/lassi/ros2_lab2_ws/src/build/gazebo_example/install.log'
+[1.235s] Invoked command in '/home/lassi/ros2_lab2_ws/src/gazebo_example' returned '0': PYTHONPATH=/home/lassi/ros2_lab2_ws/src/build/gazebo_example/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/lassi/ros2_lab2_ws/src/install/gazebo_example/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/gazebo_example build --build-base /home/lassi/ros2_lab2_ws/src/build/gazebo_example/build install --record /home/lassi/ros2_lab2_ws/src/build/gazebo_example/install.log --single-version-externally-managed install_data
