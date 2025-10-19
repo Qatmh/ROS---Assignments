@@ -12,3 +12,8 @@ to run this code use:
 
 
 # Task 4
+
+In this task we made particle filter localization algorithm for turtlebot. Position of robot was estimated using particle filter. It got inputs from odometry data (odom) and lidar scan(scan). Position of the know feature  at cordinates (2, -2) was predicted for each particle and compared with lidar measurement. 
+for visualization matplotlibs live plot feature was used to show odometry path versus estimated trajectory in real time.
+
+![alt text](task4.png)
